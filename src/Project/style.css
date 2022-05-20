@@ -1,0 +1,26 @@
+.container__project {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+.container__project h2 {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .container__project {
+    width: 80%;
+    padding: 2rem 0rem 5rem 0rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container__project {
+    width: 60%;
+  }
+}

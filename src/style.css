@@ -2,14 +2,28 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
   color: white;
+  line-height: 1.7rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .container {
+  margin: auto;
   background-color: #81b69d;
 }
 
@@ -17,93 +31,26 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #81b69d;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
   background-color: #fdcf76;
 }
 
 nav a {
-  margin: 10px;
+  padding: 1rem;
+  font-weight: bold;
 }
-
-.cards_container {
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
-}
-
-.card_person {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
-.card_person img {
-  border: 3px solid white;
-  border-radius: 5%;
-  width: 50%;
-}
-
-/* nechápem, prečo border-radius: 50% nerobí guľatý ten obrázok */
-
-.card_project {
-  display: block;
-  text-align: center;
-}
-
-.project_text {
-  padding: 100px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-/* potrebovala by som, aby bol ten text viac v kocke, takto je rozpliznuty... upravis? */
 
 footer {
   display: flex;
-  justify-content: space-between;
-  text-align: right;
-  line-height: 1.5;
-  font-weight: normal;
+  flex-direction: column;
+  align-items: center;
   background-color: #fdcf76;
-  padding: 10px 5px;
-  margin: 0;
-}
-
-.odkazy li {
-  display: block;
-}
-
-.odkazy a {
-  display: block;
-  font-size: 16px;
-  text-decoration: none;
-  color: white;
-  padding: 10px 5px;
-}
-
-.odkazy {
-  margin: 0;
-  padding: 0;
-}
-
-.odkaz a:hover,
-.odkaz a:focus {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-.card_contact {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  justify-content: center;
-}
-
-.author_contact {
-  padding: 20px 10px;
-  justify-content: center;
+  padding: 2rem;
 }
