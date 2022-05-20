@@ -33,7 +33,9 @@ const Authors = () => {
             <p>
               {' '}
               <img className="icon" src={email} alt="email ikona" />
-              <a href="#">viktoria.andrascikova@gmail.com</a>
+              <a href="mailto:viktoria.andrascikova@gmail.com">
+                viktoria.andrascikova@gmail.com
+              </a>
             </p>
 
             <p>
@@ -74,7 +76,9 @@ const Authors = () => {
             <p>
               {' '}
               <img className="icon" src={email} alt="email ikona" />
-              <a href="#">zuzankacervinova@gmail.com</a>
+              <a href="mailto:zuzankacervinova@gmail.com">
+                zuzankacervinova@gmail.com
+              </a>
             </p>
 
             <p>
