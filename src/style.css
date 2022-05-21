@@ -23,7 +23,8 @@ a:focus {
 }
 
 .container {
-  margin: auto;
+  max-width: 900px;
+  margin: 0 auto;
   background-color: #81b69d;
 }
 
@@ -38,6 +39,9 @@ header {
 
 nav {
   display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   justify-content: center;
   background-color: #fdcf76;
 }
@@ -53,4 +57,11 @@ footer {
   align-items: center;
   background-color: #fdcf76;
   padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: block;
+    justify-content: space-between;
+  }
 }

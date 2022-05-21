@@ -47,13 +47,13 @@ const Authors = () => {
             </p>
           </div>
           <p className="card__description">
-            Viktória momentálne pracuje v Saas firme na podpore, kde rieši
-            požiadavky a problémy s firemnou aplikáciou na projektový manažment
-            s klientami a partnerskými firmami z celého sveta. Okrem
-            programovacích jazykov sa rada hrabe v jazykoch cudzích. Filmy a
-            youtube bez titulkov a porozumenie knihám v originále sú veľkou
-            motiváciou. Jej obľúbená forma relaxu je piknik v parku s príjemnou
-            spoločnosťou a dobrou knihou.{' '}
+            Viktória pracuje v Saas firme na podpore a rieši požiadavky klientov
+            z celého sveta. Rada by sa kariérne posunula do front-endu.
+            <br />
+            Okrem programovacích jazykov sa rada zaoberá francúzštinou.
+            <br />
+            Jej obľúbená forma relaxu je piknik v parku s príjemnou spoločnosťou
+            a dobrou knihou.{' '}
           </p>
         </div>
 
@@ -102,10 +102,6 @@ const Authors = () => {
             </a>{' '}
           </p>
         </div>
-      </div>
-      <div className="card__authors">
-        <h2>Společně o nás</h2>
-        <p></p>
       </div>
     </div>
   );
