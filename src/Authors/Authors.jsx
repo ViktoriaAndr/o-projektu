@@ -92,9 +92,8 @@ const Authors = () => {
           <p className="card__description">
             Zuzana pracuje na pozici Arts Manager v aukčním domě, kde se věnuje
             především organizaci online uměleckých aukcí.
-            <br />
             <br /> Po dokončení Digitální akademie by se ráda dále rozvíjela v
-            oboru a uplatnila se jako junior front-end web developer. <br />
+            oboru a uplatnila se jako junior front-end web developer.
             <br />
             Píše krátké básničky na{' '}
             <a href="https://nazuzunana.com/" target="_blank">

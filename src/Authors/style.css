@@ -13,19 +13,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.container__author--card {
+.container__author--card:not(:last-child) {
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .container__author--card h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .container__author--card .photo {
   border: 3px solid white;
   border-radius: 50%;
   width: 60%;
-  margin: 0rem 0rem 2rem 0rem;
+  margin: 0rem 0rem 1rem 0rem;
 }
 
 .socials {
@@ -49,10 +50,6 @@
 
   .container__author--card {
     width: 45%;
-  }
-
-  .card__description {
-    padding-top: 1rem;
   }
 }
 
