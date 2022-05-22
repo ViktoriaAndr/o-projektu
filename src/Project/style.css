@@ -12,6 +12,14 @@
   padding-bottom: 2rem;
 }
 
+.container__project--description img {
+  max-width: 10%;
+}
+
+.icons img {
+  padding-right: 15px;
+}
+
 @media (min-width: 768px) {
   .container__project {
     width: 80%;
@@ -22,5 +30,14 @@
 @media (min-width: 1366px) {
   .container__project {
     width: 60%;
+  }
+
+  container__project--description {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .icons {
+    display: flex;
   }
 }
