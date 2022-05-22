@@ -19,14 +19,9 @@ const Project = () => {
           přinese někomu, kdo to opravdu potřebuje.
           <br />
           <br />
-          <br />
           Po skončení akademie bychom web rády nadále rozvíjely a nabídly
           charitativní neziskové organizaci, která by jej využívala pro pořádání
           vlastních aukcí.
-          <br />
-          <br />
-          <br />
-          <br />
         </p>
       </div>
     </div>

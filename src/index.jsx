@@ -10,7 +10,7 @@ const App = () => (
   <>
     <div className="container">
       <header>
-        <h2>Záverečný projekt Digitální akademie Czechitas</h2>
+        <h2>Závěrečný projekt Digitální akademie Czechitas</h2>
       </header>
       <main>
         <nav>

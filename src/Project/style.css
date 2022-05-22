@@ -14,7 +14,7 @@
 
 .coin,
 .hands {
-  max-width: 10%;
+  width: 5rem;
   padding: 1rem;
 }
 
