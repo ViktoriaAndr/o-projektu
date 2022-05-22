@@ -12,32 +12,21 @@
   padding-bottom: 2rem;
 }
 
-.container__project--description img {
+.coin,
+.hands {
   max-width: 10%;
-}
-
-.icons img {
-  padding-right: 15px;
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {
   .container__project {
     width: 80%;
-    padding: 2rem 0rem 5rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
   }
 }
 
 @media (min-width: 1366px) {
   .container__project {
     width: 60%;
-  }
-
-  container__project--description {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .icons {
-    display: flex;
   }
 }

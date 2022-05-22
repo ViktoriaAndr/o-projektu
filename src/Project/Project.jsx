@@ -9,13 +9,9 @@ const Project = () => {
       <h2>Dobročinné aukce</h2>
       <div className="container__project--description">
         <p>Webová platforma určená pro online dobročinné aukce.</p>
-        <br />
-        <div className="icons">
-          <img className="coin" src={coin} />
-          <img className="hands" src={hands} />
-        </div>
+        <img className="coin" src={coin} />
+        <img className="hands" src={hands} />
         <p>
-          <br />
           Dobročinných sbírek jsme viděly mnoho, také uměleckých aukčních domů a
           aukčních portálů, a tak jsme tyto dvě činnosti spojily. Chyběl nám
           aukční web, jenž by spojoval příjemné s užitečným: někdo má hodně a
