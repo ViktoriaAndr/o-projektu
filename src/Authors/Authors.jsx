@@ -50,7 +50,8 @@ const Authors = () => {
             Viktória pracuje v Saas firme na podpore a rieši požiadavky klientov
             z celého sveta. Rada by sa kariérne posunula do front-endu.
             <br />
-            Okrem programovacích jazykov sa rada zaoberá francúzštinou.
+            Okrem programovacích jazykov sa vo voľnom čase hrabe vo
+            francúzštine.
             <br />
             Jej obľúbená forma relaxu je piknik v parku s príjemnou spoločnosťou
             a dobrou knihou.{' '}
