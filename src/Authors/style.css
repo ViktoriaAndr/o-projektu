@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 2rem;
 }
 
 .container__authors--cards {
@@ -13,9 +13,9 @@
   flex-direction: column;
   justify-content: center;
 }
-.container__author--card:not(:last-child) {
+.container__author--card:not(:first-child) {
   align-items: center;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .container__author--card h2 {
@@ -50,6 +50,10 @@
 
   .container__author--card {
     width: 45%;
+  }
+
+  .container__author--card:not(:first-child) {
+    padding-top: 0rem;
   }
 }
 

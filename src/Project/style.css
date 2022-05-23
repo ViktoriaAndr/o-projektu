@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 2rem;
 }
 
 .container__project h2 {
@@ -21,7 +21,6 @@
 @media (min-width: 768px) {
   .container__project {
     width: 80%;
-    padding: 2rem 0rem 2rem 0rem;
   }
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
+import '../style.css';
 import hammer from './img/hammer.png';
-import Authors from '../Authors/Authors';
 import { Link } from 'react-router-dom';
 
 const Homepage = () => {

@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 2rem;
 }
 
 .container__homepage h2 {
@@ -13,7 +13,7 @@
 }
 
 .container__homepage img {
-  width: 55%;
+  width: 10rem;
 }
 
 .hammer__image:hover {
@@ -23,7 +23,6 @@
 @media (min-width: 768px) {
   .container__homepage {
     width: 80%;
-    padding: 2rem 0rem 5rem 0rem;
   }
 }
 
