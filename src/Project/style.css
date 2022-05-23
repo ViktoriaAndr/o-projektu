@@ -8,12 +8,13 @@
   padding: 2rem;
 }
 
-.container__project h2 {
+.project__name {
   padding-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.coin,
-.hands {
+.project__icon {
   width: 5rem;
   padding: 1rem;
 }
@@ -21,6 +22,7 @@
 @media (min-width: 768px) {
   .container__project {
     width: 80%;
+    padding: 2rem 0rem 5rem 0rem;
   }
 }
 

@@ -20,10 +20,16 @@ const App = () => (
         </nav>
         <Outlet />
       </main>
-      <footer>
-        <p> © 2022, Všechna práva vyhrazena</p>
-        <p> Czechitas: Digitální akademie web 2022</p>
-      </footer>
+      <div className="footer">
+        <div className="footer__copyright">
+          {' '}
+          © 2022, Všechna práva vyhrazena
+        </div>
+        <div className="footer__copyright">
+          {' '}
+          Czechitas: Digitální akademie web 2022
+        </div>
+      </div>
     </div>
   </>
 );

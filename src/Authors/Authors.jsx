@@ -6,22 +6,31 @@ import github from './icons/github.svg';
 import email from './icons/email.svg';
 
 import './style.css';
+import '../style.css';
 
 const Authors = () => {
   return (
     <div className="container__authors">
-      <div className="container__authors--cards">
-        <div className="container__author--card">
-          <h2>
+      <div className="authors__cards">
+        <div className="author__card">
+          <div className="card__name">
             Viktória
             <br />
             Andraščíková
-          </h2>
-          <img className="photo" src={viktoria} alt="fotka Viktória" />{' '}
-          <div className="socials">
+          </div>
+          <img
+            className="card__photo"
+            src={viktoria}
+            alt="fotka Viktória"
+          />{' '}
+          <div className="card__socials">
             <p>
               {' '}
-              <img className="icon" src={instagram} alt="instagram ikona" />
+              <img
+                className="socials__icon"
+                src={instagram}
+                alt="instagram ikona"
+              />
               <a
                 href="https://www.instagram.com/viktoradelaville/"
                 target="_blank"
@@ -32,7 +41,7 @@ const Authors = () => {
 
             <p>
               {' '}
-              <img className="icon" src={email} alt="email ikona" />
+              <img className="socials__icon" src={email} alt="email ikona" />
               <a href="mailto:viktoria.andrascikova@gmail.com">
                 viktoria.andrascikova@gmail.com
               </a>
@@ -40,7 +49,7 @@ const Authors = () => {
 
             <p>
               {' '}
-              <img className="icon" src={github} alt="github ikona" />
+              <img className="socials__icon" src={github} alt="github ikona" />
               <a href="https://github.com/ViktoriaAndr" target="_blank">
                 ViktoriaAndr
               </a>
@@ -58,17 +67,21 @@ const Authors = () => {
           </p>
         </div>
 
-        <div className="container__author--card">
-          <h2>
+        <div className="author__card">
+          <div className="card__name">
             Zuzana
             <br />
             Červínová
-          </h2>
-          <img className="photo" src={zuzana} alt="fotka Zuzana" />{' '}
-          <div className="socials">
+          </div>
+          <img className="card__photo" src={zuzana} alt="fotka Zuzana" />{' '}
+          <div className="card__socials">
             <p>
               {' '}
-              <img className="icon" src={instagram} alt="instagram ikona" />
+              <img
+                className="socials__icon"
+                src={instagram}
+                alt="instagram ikona"
+              />
               <a href="https://www.instagram.com/nazuzunana/" target="_blank">
                 nazuzunana
               </a>
@@ -76,7 +89,7 @@ const Authors = () => {
 
             <p>
               {' '}
-              <img className="icon" src={email} alt="email ikona" />
+              <img className="socials__icon" src={email} alt="email ikona" />
               <a href="mailto:zuzankacervinova@gmail.com">
                 zuzankacervinova@gmail.com
               </a>
@@ -84,7 +97,7 @@ const Authors = () => {
 
             <p>
               {' '}
-              <img className="icon" src={github} alt="github ikona" />
+              <img className="socials__icon" src={github} alt="github ikona" />
               <a href="https://github.com/nazuzunana" target="_blank">
                 nazuzunana
               </a>

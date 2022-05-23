@@ -8,21 +8,24 @@
   padding: 2rem;
 }
 
-.container__homepage h2 {
+.homepage__title {
   padding-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.container__homepage img {
+.homepage__icon {
   width: 10rem;
 }
 
-.hammer__image:hover {
+.homepage__icon:hover {
   cursor: pointer;
 }
 
 @media (min-width: 768px) {
   .container__homepage {
     width: 80%;
+    padding: 2rem 0rem 5rem 0rem;
   }
 }
 

@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const Homepage = () => {
   return (
     <div className="container__homepage">
-      <h2>Dobročinné aukce</h2>
+      <div className="homepage__title">Dobročinné aukce</div>
       <Link to="/Project">
         <img
-          className="hammer__image"
+          className="homepage__icon"
           src={hammer}
           alt="obrázek aukčního kladívka"
         />

@@ -1,16 +1,17 @@
 import React from 'react';
 import './style.css';
+import '../style.css';
 import coin from './img/coin.svg';
 import hands from './img/hands.svg';
 
 const Project = () => {
   return (
     <div className="container__project">
-      <h2>Dobročinné aukce</h2>
-      <div className="container__project--description">
+      <div className="project__name">Dobročinné aukce</div>
+      <div className="project__description">
         <p>Webová platforma určená pro online dobročinné aukce.</p>
-        <img className="coin" src={coin} />
-        <img className="hands" src={hands} />
+        <img className="project__icon" src={coin} />
+        <img className="project__icon" src={hands} />
         <p>
           Dobročinných sbírek jsme viděly mnoho, také uměleckých aukčních domů a
           aukčních portálů, a tak jsme tyto dvě činnosti spojily. Chyběl nám
